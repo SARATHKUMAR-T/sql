@@ -1,0 +1,26 @@
+ 1.IMDB DataBase:
+ 
+ Create Table IMDB (
+  Movie text,
+  Media blob,
+  Media2 blob,
+  Genre text, 
+ )
+
+   
+  Create Table IMDB2(
+    Reviews1 text,
+   Reviews2 text,
+   User text,
+   Skills text,
+    Roles text
+  )
+
+  2.Insert Queries
+
+  INSERT INTO IMDB
+VALUES("NO WAY","image","Video","Thriller,science")
+
+INSERT INTO IMDB2 
+VALUES("Good Movie","Must Watch","JHON","Stunt","Supporting Actor,Stunt Master")
+
